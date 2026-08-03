@@ -59,5 +59,11 @@ python3 benchmark_dslrs.py <priv_key_hex>
 ```
 Metrics are recorded in `dslrs_performance_benchmark.csv`.
 
+Use the automated analysis script to extract mean and median times from the data in the .csv file (which can be an important ammount of data). The script also plots boxplots from the data showing the IQR and more.
+```bash
+python3 analyze_benchmark.py
+```
+
+
 ## Acknowledgements
 This work is supported by the French National Research Agency under project TRACIA. 
